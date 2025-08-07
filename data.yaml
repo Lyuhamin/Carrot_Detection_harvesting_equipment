@@ -1,0 +1,6 @@
+path: D:/git/Carrot_Detection_harvesting_equipment/data/Carrot Detection.v1i.voc
+train: D:/git/Carrot_Detection_harvesting_equipment/data/Carrot Detection.v1i.voc/train
+val: D:/git/Carrot_Detection_harvesting_equipment/data/Carrot Detection.v1i.voc/valid
+
+nc: 1
+names: ['carrot']
