@@ -2,11 +2,12 @@
 이 프로젝트는 YOLOv8 기반의 객체 탐지 모델을 활용하여 당근을 인식하고 수확 장비에서 사용할 수 있도록 설계되었습니다.  
 데이터셋은 VOC 형식에서 YOLO 형식으로 변환되었으며, 모델 학습 및 평가를 위한 구조가 포함되어 있습니다.
 
-computer: 
-    AMD RYZEN 6700, NVDIA 3060
+💻 computer: 
+- CPU: AMD Ryzen 6700
+- GPU: NVIDIA RTX 3060
 
 
-주요 구성:
+📂 주요 구성:
 - data: 학습, 검증, 테스트 데이터 및 라벨 파일
 - models: 학습 스크립트 및 데이터 변환 코드
 - results: 학습 결과 저장 폴더
@@ -14,7 +15,7 @@ computer:
 
 
 
-주요 기술 스택:
+🛠 주요 기술 스택:
 - Python 3.10
 - Ultralytics YOLOv8
 - PyTorch
@@ -35,9 +36,11 @@ The dataset was converted from VOC format to YOLO format, and the codebase inclu
 - results: Training output and performance results
 - YOLOv8: Pretrained weights (.pt files) and YOLO configuration files
 
+
 💻 System Specs:
 - CPU: AMD Ryzen 6700
 - GPU: NVIDIA RTX 3060
+
 
 🛠 Technologies Used:
 - Python 3.10
